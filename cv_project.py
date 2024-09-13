@@ -10,7 +10,7 @@ import time
 # Initialize dlib face detector and shape predictor
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
-print("DEVELOPED BY: HARDIK KHATRI")
+
 print("a")
 
 # Initialize MTCNN face detector and InceptionResnetV1 model
